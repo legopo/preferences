@@ -2,6 +2,17 @@
 
 ## system
 
+### zsh
+
+- oh my zsh導入(.zshrcが上書きされるので早めに済ませておく)
+    - plugin(homebrew経由)
+        - zsh-autosuggestions
+        - zsh-completions
+        - zsh-syntax-highlighting
+    - theme(+ プロンプト編集)
+        - muse
+        - af-magic
+
 ### homebrew
 
 - パス設定必要かも
@@ -9,7 +20,7 @@
 ### git
 
 - homebrewで入れた(仮)
-- globalなignore設定とりあえずmac osのみ(~/.config/git/ignore) [例](https://github.com/github/gitignore/tree/main/Global)
+- globalなignore設定とりあえずmac osのみ(~/.config/git/ignore) [Github公式で載せてくれてる例](https://github.com/github/gitignore/tree/main/Global)
 - github設定(ssh)
 
 ### karabiner-elements
@@ -38,6 +49,7 @@
 
 ### item2
 
+- 設定をエクスポートしてマシン間で共有
 
 ### VS Code
 
