@@ -13,6 +13,14 @@
         - muse
         - af-magic
 
+### key repeat
+
+- 早くする [参考](https://shnsprk.com/entry/2018/06/08/080000)
+    - $ defaults read -g InitialKeyRepeat
+    - $ defaults write -g InitialKeyRepeat -int 15 # 15はデフォルト？10だと早すぎかも
+    - $ defaults read -g KeyRepeat
+    - $ defaults write -g KeyRepeat -int 1
+
 ### homebrew
 
 - パス設定必要かも
